@@ -50,10 +50,10 @@ public class RNViewConfigurationHelper implements ViewConfigurationHelper {
   @Override
   public boolean isViewClippingChildren(ViewGroup view) {
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2 && !view.getClipChildren()) {
-        if (view instanceof ReactViewGroup) {
-            String overflow = ((ReactViewGroup) view).getOverflow();
-            return "hidden".equals(overflow);
-        }
+//        if (view instanceof ReactViewGroup) {
+//            String overflow = ((ReactViewGroup) view).getOverflow();
+//            return "hidden".equals(overflow);
+//        }
         return false;
       }
     return true;

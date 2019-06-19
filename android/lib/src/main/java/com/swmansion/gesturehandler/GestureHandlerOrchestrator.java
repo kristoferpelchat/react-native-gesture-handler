@@ -7,11 +7,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 
+import androidx.annotation.Nullable;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
-
-import javax.annotation.Nullable;
 
 public class GestureHandlerOrchestrator {
 
